@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo {
+    height: 60px;
+    width: 180px;
+    background-image: url('../assets/Chat2.png'); /* Adjust the path if necessary */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .navbar-search input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    height: 40px;
+    width: 40px;
+    background-image: url('../assets/Chat2.png'); /* Adjust the path if necessary */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .language {
+    font-size: 16px;
+    color: #333;
+    margin-left: 30px;
+    padding-right: 20px;
+  }
+  
